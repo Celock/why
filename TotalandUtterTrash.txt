@@ -1,0 +1,27 @@
+<DOCTYPE! html>
+	<head>
+		<title>Magpie Forever</title>
+	</head>
+	<body style="text-align:center;background-color:beige">
+		<h1>Magpie Forever!</h1>
+		<br></br> 
+		<h3>And all y&#8217all haters can go and die</h3>
+		<br></br>
+		<br></br>
+		<button value="button" type="button" onclick="alert('Magpie is better than you! Embrace the wiggle.')"><img src="wiggle.gif"></img></button>
+		<br>
+		<button value = "button2" type="button" onclick="myFunction()">CLick me too!</button>
+	</body>
+	<script>
+		function myFunction() {
+			var a = prompt("How old are you?");
+			if (a > 15) {
+				alert("You're old.");
+			}
+			else {
+				alert("Hahahaha.");
+			}
+		}
+	</script>
+</html>
+		
